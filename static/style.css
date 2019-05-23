@@ -1,0 +1,131 @@
+style
+body {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("/static/capa de fundo 1.png");
+}
+
+.navbar {
+  width: 100%;
+  background-color: #white;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 20px 70px;
+
+  color: #ff8800;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+
+
+.active {
+  background-color: #000;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+
+. footer {
+     background-color: #333;
+     color: white;
+     display: flex;
+}
+
+.icons {
+     padding: 50px 100px;
+}
+
+
+.email i {
+     background-color: #222;
+     padding: 12px;
+     curser: pointer;
+     border-radius: 100#;
+}
+
+.marker i {
+    background-color: #222;
+    padding: 12px;
+    curser: pointer;
+    border-radius: 100#;
+}
+
+.phone p {
+    display: inline-block;
+    padding: 10px;
+
+.email p {
+    display: inline-block;
+    padding: 10px;
+}
+
+.marker p {
+    display: inline-block;
+    padding: 10px;
+}
+
+.info {
+    padding: 50px 100px;
+}
+
+.info-title {
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.info-content {
+    background-color: #222;
+    padding: 20px;
+    font-size: 15px;
+    lin-height: 35px;
+    width: 400px;
+}
+
+.info div {
+    display: flex;
+    font-size: 50px;
+}
+
+.info title {
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.info-content {
+    background-color: #222;
+    padding: 20px;
+    font-size: 15px;
+    lin-height: 25px;
+    width: 400px;
+}
+
+.info div {
+    display: flex;
+    font-size: 30px;
+}
+
+.info div div {
+    padding: 0px 30px 0px 0px; /* 0 = cima \\ 30 = direita \\ 0 = baixo \\ 0 = esquerda */
+}
+
+.info div i {
+    background-color: #222;
+    padding: 6px;
+    color: white;
+    border-radius: 10px;
+}
+
+.k {
+   padding: 212px;
+}
+
